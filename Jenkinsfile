@@ -1,6 +1,6 @@
 pipeline {
     agent{
-        label = 'ws'
+        label 'ws'
     }
   
     parameters {
