@@ -23,7 +23,7 @@ output "PUBLIC_SUBNET_CIDR" {
 }
 
 output "DEFAULT_VPC_CIDR" {
-    value   = vmodule.vpc.DEFAULT_VPC_CIDR
+    value   = module.vpc.DEFAULT_VPC_CIDR
 }
 
 output "DEFAULT_VPC_ID" {
