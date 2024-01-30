@@ -1,7 +1,7 @@
 module "vpc"{
   # source              = "git::https://github.com/Shoaibs411/tf-module-vpc.git"
   
-  source              = "./vendor/modules/vpc"
+  source                    = "./vendor/modules/vpc"
 
   ENV                       = var.ENV
   AZ                        = var.AZ
